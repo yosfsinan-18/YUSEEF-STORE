@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ku" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YUSEEF STORE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #58a6ff;
+        }
+        .app-card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px auto;
+            max-width: 400px;
+            text-align: right;
+        }
+        .app-card h3 {
+            margin: 0 0 10px 0;
+            color: #f0f6fc;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #238636;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #2ea043;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>YUSEEF STORE</h1>
+    <p>بێخێر هاتن بۆ ستۆرا یۆسفی بۆ بەرنامەیێن هککری و دابەزاندنا ڕاستەوخۆ</p>
+
+    <div class="app-card">
+        <h3>ناڤێ بەرنامەی (نموونە)</h3>
+        <p>ڤێرژن: 1.0.0 | هککری و تێستکری</p>
+        <!-- لێرە لینکێ itms-services یێ Direct Install ددانێ -->
+        <a href="itms-services://?action=download-manifest&url=لینکێ_پلست_یا_تە.plist" class="btn">دابەزاندنا ڕاستەوخۆ (Install)</a>
+    </div>
+
+</body>
+</html>
